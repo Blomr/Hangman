@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="highscores">Highscores</string>
+    <string name="place">Place</string>
+    <string name="player">Player</string>
+    <string name="word">Word</string>
+    <string name="score">Score</string>
+    <string name="one">1.</string>
+    <string name="two">2.</string>
+    <string name="three">3.</string>
+    <string name="four">4.</string>
+    <string name="five">5.</string>
+    <string name="six">6.</string>
+    <string name="seven">7.</string>
+    <string name="eight">8.</string>
+    <string name="nine">9.</string>
+    <string name="ten">10.</string>
+    <string name="ok">ok</string>
+    <string name="inputNamePlayer">input name player</string>
+    <string name="tapTheScreenToQuit">Tap the screen to quit</string>
+    <string name="loading">Loading...</string>
+    <string name="settings">Settings</string>
+    <string name="incorrectGuesses">Incorrect guesses:</string>
+    <string name="wordLength">Word length:</string>
+    <string name="evilMode">Evil mode</string>
+    <string name="cancel">cancel</string>
+    <string name="inputLetter">input letter</string>
+    <string name="thanksForPlaying">Thanks for playing!</string>
+</resources>

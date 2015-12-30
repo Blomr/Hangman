@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Gameplay"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/background"
+        android:scaleType="fitXY"
+        android:src="@drawable/blackboard"/>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:id="@+id/logoTop"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/incGuessLeft"
+        android:layout_below="@id/logoTop"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/drawing"
+        android:layout_below="@id/incGuessLeft"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="22dp"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:id="@+id/wrongLetters"
+        android:layout_alignTop="@id/drawing"
+        android:layout_toEndOf="@id/drawing"
+        android:layout_toRightOf="@id/drawing"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"
+        android:layout_alignTop="@id/drawing"
+        android:layout_toLeftOf="@id/drawing"
+        android:layout_toStartOf="@id/drawing"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/word"
+        android:layout_below="@id/drawing"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/okButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="onClickOk"
+        android:text="@string/ok"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputLetter"
+        android:id="@+id/editText"
+        android:layout_alignBottom="@id/okButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toLeftOf="@id/okButton"
+        android:layout_toStartOf="@id/okButton"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/settingsButtonGP"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/settingsicon"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/newButtonGP"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/newicon"/>
+
+</RelativeLayout>
