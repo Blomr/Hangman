@@ -6,4 +6,4 @@
 - Adjust the settings to your own level
 - Beat your scores in the highscore lists
 
-![proposal](http://postimg.org/image/hcrmh1bo5/)
+![proposal](http://i64.tinypic.com/10zwktk.jpg)
